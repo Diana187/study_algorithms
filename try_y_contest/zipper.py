@@ -36,3 +36,13 @@ def zipper(arr_1, arr_2):
     for i in range(0, n_len):
         result_arr = result_arr + arr_1[i] + " " + arr_2[i] + " "
     return result_arr
+
+
+# n = int(input())
+# m1 = list(input().split())
+# m2 = list(input().split())
+
+# interleaved  = ''
+# for i in range(0, n):
+#     interleaved  = interleaved  + m1[i] + ' ' + m2[i] + ' '
+# print(interleaved)
